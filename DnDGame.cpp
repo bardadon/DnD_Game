@@ -164,6 +164,51 @@ bool Player::GetCurrentLocation(LOCATION& sOutCurrentLocation) const
 	return true;
 }
 
+bool Player::PlayerChangeLocation(DIRECTION eDirection, int nNumOfSteps)
+{
+	LOCATION eNewLocation(m_sCurrentLocation);
+	int XPointCordIndex = 0, YPointCordIndex = 0;
+	m_sCurrentLocation.ConvertPointIndexToXYCord(XPointCordIndex, YPointCordIndex);
+
+	int XRoomCordIndex = 0, YRoomCordIndex = 0;
+	m_sCurrentLocation.ConvertRoomIndexToXYCord(XRoomCordIndex, YRoomCordIndex);
+
+	switch (eDirection)
+	{
+	case DIRECTION_NORTH:
+
+		// If player is not at the north edge of room. Go north
+		if (YPointCordIndex > 0)
+		{
+			++YPointCordIndex;
+			m_sCurrentLocation.ConvertXYCordToPointIndex(XPointCordIndex, YPointCordIndex);
+		}
+		else
+		{
+			// Otherwise, if player is not at the north edge of area. Go north to next room
+			if (YRoomCordIndex > 0)
+			{
+				++YRoomCordIndex; // Player has moved to north room
+				m_sCurrentLocation.ConvertXYCordToRoomIndex(XRoomCordIndex, YRoomCordIndex);
+
+				m_sCurrentLocation.m_nPointIndex = G_ROOM_LENGTH - 1; // player is now at the bottom of new room	
+			}
+		}
+
+		break;
+	case DIRECTION_SOUTH:
+		break;
+	case DIRECTION_EAST:
+		break;
+	case DIRECTION_WEST:
+		break;
+	default:
+		break;
+	}
+
+	return true;
+}
+
 
 
 
@@ -334,6 +379,11 @@ bool System::GetCurrentRoomDescription(std::string& strOutRoomDescription) const
 	strOutRoomDescription = pOutCurrentRoom->GetRoomDescription();
 	return true;
 
+}
+
+bool System::PlayerChangeLocation(DIRECTION eDirection, int nNumOfSteps)
+{
+	return m_pPlayer->PlayerChangeLocation(eDirection, nNumOfSteps);
 }
 
 void System::LogIn()
@@ -514,8 +564,16 @@ CommandDispacher::CommandDispacher(System& pSystem)
 
 void CommandDispacher::RegisterCommands()
 {
+	// Look - print room description
 	m_mapCommandFunctions["look"] = [this](const UserCommand& cmd) {return this->Look(cmd); };
 
+	// Go/Walk North - Move 1 tile up
+	m_mapCommandFunctions["north"] = [this](const UserCommand& cmd) {return this->WalkNorth(cmd); };
+	m_mapCommandFunctions["go north"] = [this](const UserCommand& cmd) {return this->WalkNorth(cmd); };
+	m_mapCommandFunctions["walk north"] = [this](const UserCommand& cmd) {return this->WalkNorth(cmd); };
+	m_mapCommandFunctions["n"] = [this](const UserCommand& cmd) {return this->WalkNorth(cmd); };
+	m_mapCommandFunctions["w"] = [this](const UserCommand& cmd) {return this->WalkNorth(cmd); };
+	m_mapCommandFunctions["up"] = [this](const UserCommand& cmd) {return this->WalkNorth(cmd); };
 }
 
 bool CommandDispacher::ExecuteCommand(const std::string& strCommand)
@@ -539,6 +597,21 @@ bool CommandDispacher::Look(const std::string& strCommand)
 		return false;
 
 	std::cout << strCurrentRoomDescription << "\n";
+	return true;
+}
+
+bool CommandDispacher::WalkNorth(const std::string& strCommand)
+{
+	DIRECTION eDirection(DIRECTION_NORTH);
+	int nNumOfSteps = 1;
+	if (!m_pSystem.PlayerChangeLocation(eDirection, nNumOfSteps))
+	{
+		std::cout << "You cant go there\n";
+		return false;
+	}
+		
+	std::cout << "Walking Up....\n";
+	std::this_thread::sleep_for(std::chrono::seconds(2));
 	return true;
 }
 

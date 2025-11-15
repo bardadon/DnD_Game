@@ -6,6 +6,9 @@
 #include <unordered_map>
 #include <functional>
 
+constexpr int G_ROOM_LENGTH = 50;
+constexpr int G_AREA_LENGTH = 10;
+
 constexpr int G_MAX_ROOM_SIZE = 50 * 50; // Each room is a 50x50 grid of points
 constexpr int G_MAX_AREA_SIZE = 10 * 10; // Each area is a 10x10 grid of rooms
 
@@ -49,6 +52,15 @@ enum FACTION
 	FACTION_NOMADIC_TRIBES
 };
 
+enum DIRECTION
+{
+	DIRECTION_NORTH = 0,
+	DIRECTION_SOUTH,
+	DIRECTION_EAST,
+	DIRECTION_WEST
+};
+
+
 struct LOCATION
 {
 	LOCATION(AREA_NAME eAreaName = AREA_NAME_NONE, uint32_t nRoomIndex = 0, uint32_t nPointIndex = 0) :
@@ -59,6 +71,28 @@ struct LOCATION
 	bool IsValidLocation() const
 	{
 		return (m_eAreaName == AREA_NAME_NONE) && (m_nRoomIndex < G_MAX_AREA_SIZE) && (m_nPointIndex < G_MAX_ROOM_SIZE);
+	}
+
+	void ConvertPointIndexToXYCord(int& OutX, int& OutY) const
+	{
+		OutX = (m_nPointIndex % G_ROOM_LENGTH) - 1;
+		OutY = (m_nPointIndex / G_ROOM_LENGTH) - 1;
+	}
+
+	void ConvertXYCordToPointIndex(int x, int y)
+	{
+		m_nPointIndex = y * G_ROOM_LENGTH + x;
+	}
+	
+	void ConvertRoomIndexToXYCord(int& OutX, int& OutY) const
+	{
+		OutX = (m_nRoomIndex % G_AREA_LENGTH) - 1;
+		OutY = (m_nRoomIndex / G_AREA_LENGTH) - 1;
+	}
+
+	void ConvertXYCordToRoomIndex(int x, int y)
+	{
+		m_nRoomIndex = y * G_AREA_LENGTH + x;
 	}
 
 	AREA_NAME m_eAreaName;
@@ -139,6 +173,9 @@ public:
 	std::string GetFactionAsString() const;
 	bool SetCurrentLocation(LOCATION sCurrentLocation);
 	bool GetCurrentLocation(LOCATION& sOutCurrentLocation) const;
+
+	bool PlayerChangeLocation(DIRECTION eDirection, int nNumOfSteps);
+
 private:
 	std::string m_strPlayerName;
 	int m_PlayerAge;
@@ -273,7 +310,11 @@ public:
 	void RegisterCommands();
 
 	bool ExecuteCommand(const std::string& strCommand);
+	
+
 	bool Look(const std::string& strCommand);
+
+	bool WalkNorth(const std::string& strCommand);
 
 private:
 	System& m_pSystem;
@@ -298,8 +339,17 @@ public:
 	void LogIn();
 	void CreateNewJourney();
 
-	
+	// Room related functions
 	bool GetCurrentRoomDescription(std::string& strOutRoomDescription) const;
+
+	// Player related functions
+	bool PlayerChangeLocation(DIRECTION eDirection, int nNumOfSteps);
+
+
+
+
+
+
 private:
 	std::unique_ptr<Player> m_pPlayer;
 	std::unique_ptr<Map> m_pMap;
