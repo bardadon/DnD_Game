@@ -1,0 +1,9 @@
+﻿  DnDGame.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'DnDGame.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\memory(3597,56):
+      the template instantiation context (the oldest one first) is
+          C:\Users\UserPc\source\repos\DnDGame\DnDGame\DnDGame.cpp(429,27):
+          see reference to function template instantiation 'std::unique_ptr<Room,std::default_delete<Room>> std::make_unique<Room,AREA_NAME&,size_t&,0>(AREA_NAME &,size_t &)' being compiled
+  
+  DnDGame.vcxproj -> C:\Users\UserPc\source\repos\DnDGame\x64\Debug\DnDGame.exe
