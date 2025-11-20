@@ -127,14 +127,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GameObject.hpp" />
+    <ClCompile Include="Map.cpp" />
     <ClCompile Include="Trie.cpp" />
     <ClCompile Include="Trie.hpp" />
-    <ClCompile Include="DnDGame.cpp" />
+    <ClCompile Include="System.cpp" />
     <ClCompile Include="test_DnDGame.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DnDGame.hpp" />
-    <ClInclude Include="SpawnSystem.hpp" />
+    <ClInclude Include="System.hpp" />
+    <ClInclude Include="Helper.hpp" />
+    <ClInclude Include="Map.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
