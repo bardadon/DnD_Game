@@ -1,0 +1,768 @@
+Eryndor – World Map Overview
+
+                 [0] Whispering Woods (Forest)
+                      │
+        [1] Stormvale Plains (Grasslands) ── [10] Plains of Thunder (Grasslands)
+             │                  │
+[6] Ashen Desert (Desert)   [7] Tundra Wastes (Tundra)
+             │                  │
+       [17] Ember Sands (Desert)   [11] Frostwind Cliffs (Mountains/Tundra)
+                      │
+          [13] High Peaks (Mountains)
+                      │
+             [2] Ashen Peaks (Volcanic/Mountains)
+                      │
+        [4] Emberlight Citadel (Ruins)
+                      │
+        [5] Ruins of Arvandor (Ruins)
+                      │
+[16] Ancient Catacombs (Ruins)
+                      │
+      [12] Swamplands of Murk (Swamp) ── [14] Cursed Marshes (Shadowlands/Swamp)
+                      │
+    [8] Coastline Ports (Coast/Ocean) ── [15] Forgotten Coast (Coast/Ocean)
+                      │
+         [18] Frostbite Fjord (Coast/Tundra)
+                      │
+             [19] Twilight Hollow (Shadowlands)
+                      │
+          [3] Shadowlands (Shadowlands)
+                      │
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+| Index | Area Name                   | Short Description                                                                                                       |
+| :---- | :-------------------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| 0     | **The Whispering Woods**    | A dense forest filled with ancient trees that murmur forgotten secrets. Wolves and fey creatures roam its mossy paths.  |
+| 1     | **Ashen Peaks**             | Jagged volcanic mountains with treacherous trails and fire-born creatures. Rumors speak of a dragon’s lair deep within. |
+| 2     | **Stormvale Plains**        | Vast open grasslands where tempests rage unpredictably. Nomads, centaurs, and sky serpents inhabit the endless horizon. |
+| 3     | **The Sunken Marshes**      | A fetid swamp of decay and mist. Undead wander aimlessly through drowned ruins of a long-forgotten civilization.        |
+| 4     | **Frostmarch Tundra**       | A frozen expanse where survival is a battle against cold and beast alike. Home to frost giants and lost relics.         |
+| 5     | **Ebon Hollow**             | A cursed valley where the sun never rises. Shadows twist and flicker as if alive. Only the brave or the damned enter.   |
+| 6     | **Emberlight Citadel**      | Once the capital of a great kingdom, now a haunted fortress of ruin and intrigue. Bandits and ghosts vie for control.   |
+| 7     | **Crystal Caverns**         | A glittering maze of luminescent minerals and subterranean rivers. The echoes of singing stones haunt intruders.        |
+| 8     | **Verdant Hollow**          | A hidden jungle valley bursting with life — and danger. Ancient temples overrun by nature conceal forbidden magic.      |
+| 9     | **The Obsidian Desert**     | A barren wasteland of black glass and shifting dunes. Rumor has it a fallen star slumbers beneath its surface.          |
+| 10    | **Isle of the Fallen Star** | A mysterious island surrounded by perpetual storms. Arcane energy radiates from the crater at its heart.                |
+
+
+
+Note1:
+Every Area can be classified as: Forest, High Mountain, Desert, Volcanic etc...
+
+Based on that classification, I can generate common themes for them. For example The Whispering Woods is a lvl 1-5 area of type Forest
+This means that monsters are wolves, giant spiders, treants, bandits etc.... of lvl 1-5, they will drop herbs and ingredients etc...
+
+
+Whenever there's an encounter, I will throw a d20 to check which monster it is according to the table below
+
+Also, each zone will have its own modifiers. A Forest will have +2 Stealth for example.
+
+
+
+
+🌳 1. Forest
+
+Monsters: wolves, giant spiders, treants, bandits, fey tricksters
+Weather: misty mornings, light rain, sudden fog banks
+NPCs: hunters, herbalists, wandering druids
+Rules Theme:
+
+Creatures hide well → higher chance of ambush
+
+Many collectible herbs and ingredients
+
+Travel speed slightly reduced by underbrush
+
+
+🌳 1. FOREST BIOME
+1d20 Encounter Table
+Roll	Encounter
+1–3	Wolves stalking the party
+4–5	Giant spiders drop from canopy
+6	Bandit ambush
+7–8	Fey trickster plays pranks
+9	Lost hunter asks for help
+10–11	Wild boars
+12	Treant observing silently
+13–14	Goblin scouts
+15	Abandoned campsite
+16–17	Mystic druid circle
+18	Ancient forest spirit
+19	Fey riddle challenge
+20	Forest guardian boss encounter
+
+
+
+Biome Skill Modifiers
+
+Stealth +2 (dense foliage)
+
+Perception -1 (line of sight blocked)
+
+Survival +2 (food plentiful)
+
+
+Travel Rules
+
+1 encounter check every 2 hours
+
+Weather change chance: 20% per hour
+
+Ambush chance increased in forests by +15%
+
+
+
+
+
+
+🏜️ 2. Desert
+
+Monsters: giant scorpions, sand elementals, mummies, jackalfolk
+Weather: scorching days, freezing nights, sandstorms
+NPCs: nomad tribes, caravan traders
+Rules Theme:
+
+Water scarcity → exhaustion checks
+
+Sandstorms can change your direction
+
+Heat-resistant creatures spawn more often
+
+
+
+
+🏜️ 2. DESERT BIOME
+1d20 Encounter Table
+Roll	Encounter
+1–2	Giant scorpions
+3–4	Sand elemental
+5–6	Mirages (no encounter but confusion)
+7–8	Nomad tribe caravan
+9	Lost wanderer
+10–11	Jackalfolk raiders
+12–13	Dust devils
+14	Ancient ruins half-buried
+15–16	Heatstroke hazard
+17–18	Mummy guardian
+19	Sandstorm
+20	Ancient desert wyrm
+
+
+
+1d100 Encounter Table
+
+1–35: Wildlife (scorpions, lizards)
+
+36–55: Raiders and nomads
+
+56–70: Sand elementals
+
+71–85: Environmental hazards
+
+86–95: Undead
+
+96–100: Desert Wyrm (boss)
+
+Desert Loot Table
+
+Common: bones, dried herbs
+
+Uncommon: desert crystals, ancient coins
+
+Rare: enchanted sand, sun-blessed relics
+
+Legendary: Pharaoh’s sigil
+
+Biome Skill Modifiers
+
+Survival +3 (tracking water/landmarks)
+
+Constitution checks required (heat)
+
+Perception -2 (mirages, heat shimmer)
+
+Travel Rules
+
+Encounter check every 4 hours
+
+Heat exhaustion roll every 2 hours
+
+Sandstorm chance: 10% per hour
+
+
+
+
+
+
+
+
+
+
+
+
+❄️ 3. Tundra / Arctic
+
+Monsters: ice trolls, winter wolves, frost spirits, remorhaz
+Weather: blizzards, icy winds, whiteout storms
+NPCs: isolated trappers, frost dwarves
+Rules Theme:
+
+Cold damage and movement penalties
+
+Visibility reduced in snowstorms
+
+Rare magical ice materials
+
+
+
+
+❄️ 3. TUNDRA BIOME
+1d20 Encounter Table
+Roll	Encounter
+1–2	Ice wolves
+3–4	Frost spirits
+5	Remorhaz sign (no fight yet)
+6–7	Blinding snowstorm
+8	Frozen corpse with loot
+9–10	Icy undead
+11	Hunter’s cabin
+12–13	Ice trolls
+14	Snowy owlbear
+15–16	Avalanche hazard
+17–18	Frost giant scouts
+19	Remorhaz emerges
+20	Ancient Frost Titan
+
+
+
+1d100 Encounter Table
+
+1–30: Wolves
+
+31–50: Undead
+
+51–65: Trolls, owlbears
+
+66–80: Weather hazards
+
+81–95: Giants
+
+96–100: Frost Titan boss
+
+Tundra Loot Table
+
+Common: fur, frozen meat
+
+Uncommon: frost crystals, preserved artifacts
+
+Rare: ice runes, giantbone shards
+
+Legendary: Heart of Winter
+
+Biome Skill Modifiers
+
+Survival -2 (environment brutal)
+
+Perception -3 during storms
+
+Athletics +1 (cold makes you push harder)
+
+
+
+
+
+
+🌋 4. Volcanic / Magma Fields
+
+Monsters: fire elementals, magma mephits, salamanders, ash drakes
+Weather: falling ash, tremors, lava geysers
+NPCs: reckless miners, fire cultists
+Rules Theme:
+
+Environmental fire hazards
+
+Earthquakes can trigger random events
+
+Fire-based monsters boosted
+
+
+🌋 4. VOLCANIC BIOME
+1d20 Encounter Table
+Roll	Encounter
+1–2	Fire mephits
+3–4	Lava drakes
+5	Ash cloud hazard
+6–7	Salamanders
+8	Earthquake
+9–10	Flame cultists
+11	Lava river shifting
+12	Fire elementals
+13–14	Magma geyser
+15–16	Burning spirits
+17	Collapsing rocks
+18–19	Fire giant patrol
+20	Ancient Magma Titan
+
+1d100 Table
+
+1–40: Mephits, salamanders
+
+41–60: Elementals
+
+61–75: Cultists
+
+76–90: Hazards
+
+91–99: Fire giants
+
+100: Magma Titan
+
+Loot Table
+
+Common: obsidian shards
+
+Uncommon: ember cores
+
+Rare: molten metal ingots
+
+Legendary: Heart of the Mountain
+
+Skill Modifiers
+
+Athletics +2 (unstable ground)
+
+Stealth -2 (bright light from lava)
+
+Survival +1 (heat navigation)
+
+
+
+
+
+
+🏞️ 5. Mountains / High Cliffs
+
+Monsters: harpies, wyverns, goats (for mild areas), stone giants
+Weather: sudden thunderstorms, rockfalls, thin air
+NPCs: hermits, monks, prospectors
+Rules Theme:
+
+Falling risk during travel
+
+High chance of aerial monster encounters
+
+Some rare ores only spawn here
+
+
+🏞️ 5. MOUNTAINS
+(Short version to save space — can fully expand if you want)
+Encounters
+
+1d20: harpies, wyverns, stone giants, rockfalls
+
+1d100:
+
+1–40 wildlife
+
+41–65 aerial threats
+
+66–85 hazards
+
+86–95 giants
+
+96–100 wyvern boss
+
+
+
+Loot
+
+ores, crystals, feathers, giant bones
+
+rare ore: sky-steel
+
+Skill Mods
+
+Athletics +3, Stealth -1, Perception +1 (clear air)
+
+Travel
+
+Encounter every 2 hours
+
+Rockfall chance 15% per hour
+
+
+
+
+
+🐉 6. Swamp / Marshlands
+
+Monsters: crocodiles, undead, will-o-wisps, oozes
+Weather: constant humidity, toxic fog, storms
+NPCs: witch-doctors, smugglers
+Rules Theme:
+
+Difficult terrain → slower movement
+
+Disease checks for wading
+
+Monsters can hide underwater
+
+
+🐉 6. SWAMP
+1d20: undead, oozes, crocodiles, witches, disease hazards
+1d100:
+
+1–45 wildlife
+
+46–65 undead
+
+66–80 oozes/slimes
+
+81–95 witches
+
+96–100 swamp horror boss
+
+Loot: fungi, venom, curse relics, swamp hearts
+Skill Modifiers: Stealth +3, Survival -1, Constitution checks vs disease
+Travel: encounter every 1.5 hours, disease check daily
+
+
+
+
+
+🌾 7. Plains / Grasslands
+
+Monsters: dire boars, centaurs, giant eagles, raiders
+Weather: long windy days, lightning storms
+NPCs: farmers, migrant caravans
+Rules Theme:
+
+Fast travel
+
+Higher chance of mounted combat
+
+Weather is unpredictable but rarely fatal
+
+
+1d20 Encounter Table
+Roll	Encounter
+1–2	Dire boars charging across the field
+3–4	Centaur scouting party
+5	Giant eagles circling
+6–7	Bandit raiders on horseback
+8	Migrant caravan seeking trade
+9–10	Wild horses stampede
+11	Lone farmer with supplies
+12–13	Gnoll hunting pack
+14	Thunderstorm hazard
+15–16	Plains lion pride
+17	Lost noble seeking help
+18–19	Centaur warband
+20	Thunderstorm Titan (rare roaming elemental)
+
+
+1d100 Encounter Table
+
+1–35: Wildlife (boars, lions, horses)
+
+36–55: Raiders / mounted bandits
+
+56–70: Centaur encounters
+
+71–85: Weather & stampedes
+
+86–95: Magical creatures (eagles, spirits)
+
+96–100: Plains Titan
+
+Loot Table
+
+Common: grain, leather, simple tools
+
+Uncommon: centaur-crafted arrows, feathers
+
+Rare: storm-infused stones
+
+Legendary: Heart of the Plains (lightning charm)
+
+Biome Skill Modifiers
+
+Travel speed +20%
+
+Perception +2 (open visibility)
+
+Stealth -3 (nowhere to hide)
+
+Travel Rules
+
+Encounter check every 3 hours
+
+Lightning storm chance 10% per hour
+
+Stampede chance during storms 5% per hour
+
+
+
+
+
+
+
+
+
+
+
+
+
+🌑 8. Shadowlands / Cursed Biome
+
+Monsters: wraiths, cursed beasts, shadow demons, undead knights
+Weather: unnatural darkness, cold fog
+NPCs: doomed wanderers, cult remnants
+Rules Theme:
+
+Light reduces encounter danger
+
+Sanity-style mechanic (fear/terror buildup)
+
+Lower healing effectiveness
+
+
+🌑 8. SHADOWLANDS / CURSED BIOME
+1d20 Encounter Table
+Roll	Encounter
+1–2	Wraiths emerging from the mist
+3–4	Cursed wolves
+5	Cold fog drains morale
+6–7	Undead knight patrol
+8	Flickering ghost lanterns
+9–10	Shadow demons stalking
+11	Cursed traveler begging for release
+12–13	Cult remnants performing rites
+14	Maddening whispers reduce sanity
+15–16	Nightmare beasts
+17	Lost soul following the party
+18–19	Thick darkness prevents vision
+20	Harbinger of Shadow (mini-boss)
+
+
+
+1d100 Encounter Table
+
+1–30: Cursed animals
+
+31–50: Undead warriors
+
+51–65: Wraiths, shadows
+
+66–80: Environmental fear effects
+
+81–95: Cultists, ritual events
+
+96–100: Harbinger boss
+
+Loot Table
+
+Common: bone charms, corrupted feathers
+
+Uncommon: shadow essence, cursed steel
+
+Rare: void crystals, necrotic runes
+
+Legendary: Heart of Darkness (artifact)
+
+Biome Skill Modifiers
+
+Healing: -25% effectiveness
+
+Wisdom saving throws needed hourly
+
+Light sources negate fear by 50%
+
+Travel Rules
+
+Encounter every 1 hour
+
+Sanity/fear check every 2 hours
+
+Darkness hazard chance 20% per hour (vision reduction, lost direction)
+
+
+
+
+
+
+
+
+
+🏛️ 9. Ruins / Ancient Cities
+
+Monsters: animated armors, golems, constructs, undead scholars
+Weather: stagnant air, arcane anomalies
+NPCs: archaeologists, treasure hunters
+Rules Theme:
+
+Trap frequency increased
+
+Lots of loot but high danger
+
+Magical instability causes random effects
+
+
+🏛️ 9. RUINS / ANCIENT CITIES
+1d20 Encounter Table
+Roll	Encounter
+1–2	Animated armors
+3–4	Arcane traps (glyphs, pressure plates)
+5	Undead scholars
+6–7	Golem guardians
+8	Wall collapse hazard
+9–10	Treasure hunters
+11	Arcane anomaly (teleport, vision, sound distortions)
+12–13	Mimic disguised as furniture
+14	Gas leak (poison hazard)
+15–16	Construct swarm
+17	Ancient library full of lore
+18–19	Arcane golem war machine
+20	Guardian of the Vault (boss)
+
+
+1d100 Encounter Table
+
+1–30: Ruin wildlife (rats, bats)
+
+31–50: Animated armors, constructs
+
+51–65: Undead and scholars
+
+66–80: Traps and environmental hazards
+
+81–95: Treasure hunters, explorers
+
+96–100: Guardian boss
+
+Loot Table
+
+Common: old coins, broken artifacts
+
+Uncommon: arcane shards, scroll fragments
+
+Rare: construct cores, runic plates
+
+Legendary: Vault-key relics
+
+Biome Skill Modifiers
+
+Investigation +3 (many clues hidden)
+
+Athletics -2 (unstable floors)
+
+Trap detection difficulty +20%
+
+Travel Rules
+
+Encounter every 1.5 hours
+
+Trap trigger chance 15% per room
+
+Arcane anomaly chance 10% per hour
+
+
+
+
+
+
+
+
+
+
+
+🌊 10. Coastline / Ocean
+
+Monsters: sahuagin, giant crabs, sirens, sea serpents
+Weather: heavy rainfall, rogue waves, fog
+NPCs: fishermen, pirates, sailors
+Rules Theme:
+
+Tides affect encounters
+
+High chance of weather-based hazards
+
+Water-themed items and spells enhanced
+
+
+🌊 10. COASTLINE / OCEAN
+1d20 Encounter Table
+Roll	Encounter
+1–2	Sahuagin raiding party
+3–4	Giant crabs
+5	Rogue wave hazard
+6–7	Siren song (wisdom save)
+8	Fishermen needing assistance
+9–10	Pirate scouts
+11	Strong currents drag party
+12–13	Jellyfish swarm
+14	Shipwreck debris with loot
+15–16	Sea serpent sighting
+17	Dense fog (vision reduced)
+18–19	Pirate ship crew
+20	Deepwater Leviathan
+
+
+1d100 Encounter Table
+
+1–30: Crabs, sharks, jellyfish
+
+31–50: Sahuagin
+
+51–65: Pirates
+
+66–80: Weather and water hazards
+
+81–95: Sirens, serpents
+
+96–100: Leviathan boss
+
+Loot Table
+
+Common: fish, nets, rope
+
+Uncommon: coral, sailor’s tokens
+
+Rare: enchanted shells, tide crystals
+
+Legendary: Leviathan scale
+
+Biome Skill Modifiers
+
+Athletics +2 (swimming, climbing)
+
+Perception -1 (fog)
+
+Water-based spells +20% stronger
+
+Travel Rules
+
+Encounter every 2 hours
+
+Weather hazard chance 25% per hour
+
+Tide shift every 6 hours (affects loot + hazards + travel speed)
