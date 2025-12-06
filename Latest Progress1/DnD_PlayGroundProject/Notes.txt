@@ -1,0 +1,165 @@
+############### General Idea #######################
+
+I want to create a dnd, text based single player rpg game.
+
+The goal of the game(for me) is to have a playground where I can practice new coding techinques, and retrain myself on what I already know.
+
+Instead of solving leetcode questions, I want to simply insert new features into the game.
+
+
+This will be a DND + https://www.alteraeon.com/ combination that is used as a playground for me
+
+
+####################################################################################
+
+
+
+
+
+
+################### The Game #######################
+The game will roughly follow the ideas in DnD, along with various ideas I will insert.
+
+I will try to follow as many/all the rules in DND, however, because this is just an excuse to practice coding, I will probably insert a lot of features unrelated to dnd.
+
+
+
+
+################## General features about the game: ####################
+- turn based, rpg.
+- leveling and exp system
+- Randomization: 
+	I want to insert as much randomization as possible, to make the game interesting for me
+		- i,e I dont want to place a monster in a certain location, I want to randomize the process and not know
+			myself exactly how many and where they are
+	- The randomization only applies to certain events such as encounters/special events such as a dragon arriving an area and so on. 
+	- However, to make the game realistic, many events will not be randomized. 
+	- First of all, Area's locations are not randomized, they will be based on the world map.
+	- castles/cities and other known locations are not randomized
+	- dungeons/hidden doors and so on are not randomized
+	
+
+
+
+
+- Classes(wizard, warrior, warlock, etc)
+	- I want to try to copy the same abilities as in DND
+
+- Map 
+	- The game will have a map, showcasing the current location of the player, 
+	- The game will be separated to different instances/rooms
+	- the map will show rooms the player has discovered, enterences to known locations, etc
+	- basically I want to copy what https://www.alteraeon.com/ does
+	- Each map can have a category that mentions how hard it is
+	
+
+- combat will be the same as dnd
+
+- I want to create NPC's and randomize their location across the maps.
+	- For example, an Npc called Hidan, can teach me Fire Bolt if I complete a certain quest
+		- I want to randomize his location so I wont know where he is.		
+		- Some npcs might be anywhere in the world, and others might be in the beginner areas
+		- Areas can be classified based on their lvl requirements and can be restricted accordingly
+
+
+
+- The interactions with the monsters, npcs and so on can be simply copied from chat gpt
+ as well as whole quest ideas, stories, world lore and so on
+
+
+
+- I want to add a long and short rest system. Players can walk around for N amount of movments before needing a long rest.
+	- Short rest replenish some movement and no spell slots
+	- Long rest replenish ALL movements and all spell slots
+	- Maybe add an exhaustion system where everytime the player moves after its movement points have ended
+		it will be more and more tired and receive stat penalties. This will allow player to prolong their journey
+		at the cost of increased risk and being weaker.
+	- Movenment points can be replenished every 30 mintes, 1 hour, full day or something like, I haven't decided
+
+- I want the world to be as dynamic as possible, I can insert a system where certain events can happen randomly.
+	- like a raiding party can enter an area. Causing certain events to unfold
+	- a dragon is guarding an area temporarily
+	- NPCs move on the map based on daily/weekly cycles or major events:
+	- Lyra Windstrider moves between forest areas to check ley lines.
+	- Thorn Ironfist travels to ruins or mountain passes seeking artifacts.
+	- Captain Selene patrols coasts; may appear in unexpected ports.
+	- Merchents/helpful teachers can roam across rooms in an area. etc
+
+
+- The game time will be incremented by 1 time unit every time a command is sent and processed.
+	- For example, a player enters a room at time = 0.	
+	- They write "Look at table"
+	- The resulting prompt is: "Table contains various quails and papers"
+	- And the time will be incremented by 1. time = 1
+
+
+- Every moveable npc in the world or area(I haven't decided) will walk 1 tile somewhere every N time units(according to some probability)
+
+
+####### Advanced Features
+
+- I can download audio files that can be played while the game is running
+	- For example, when we enter a new room, I can run a certain audio file
+	- When casting a lightning spell I can run a different audio
+	etc
+
+
+- I wanted to learn C#, Maybe I'll grab a course from udemy(paid by control) and create gui for the 
+game.
+	- I dont really have to reinvent the wheel in terms of front end design, I can simply copy the front end from 
+		alter aeon
+
+
+- Run the map in a different process so it will run in its own terminal, and it will receive commands from the game about the location of the player???
+	- This is just to pracise processes communication. Not realy sure If I want to go through with it
+
+- registration, Password and login feature. I want to connect a database and be able to register, and load my saved account
+
+
+- A very cool feature is to integrate google gemini gem or chat gpt in the npc's of the game. 
+	- Maybe before every conversation with an npc, I will run a script that loads a certain prompt about that npc and about the current state of my character in order to have chat gpt up to date and have conversations with context and relevance to the current situation
+
+
+
+
+
+##############################################################
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

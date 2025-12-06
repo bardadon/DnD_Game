@@ -1,0 +1,31 @@
+🛡️ Starting Stats Blueprint
+
+| Class   | HP | Mana | Strength | Dexterity | Intelligence | Constitution | Perception/Skill | Notes                                                                          |
+| ------- | -- | ---- | -------- | --------- | ------------ | ------------ | ---------------- | ------------------------------------------------------------------------------ |
+| Fighter | 30 | 5    | 8        | 6         | 4            | 8            | 5                | Melee combat specialist; durable; low spellcasting.                            |
+| Wizard  | 15 | 25   | 3        | 5         | 10           | 4            | 6                | Spellcaster; high intelligence; low HP/defense; good at magical detection.     |
+| Rogue   | 20 | 10   | 5        | 9         | 6            | 5            | 9                | Stealth, traps, and ambush expert; high dexterity and perception.              |
+| Cleric  | 25 | 20   | 6        | 5         | 7            | 7            | 6                | Healer and support; moderate melee; strong against undead; decent HP and mana. |
+
+
+
+
+
+
+
+
+⚔️ Notes on Gameplay Effects
+
+HP: Determines survivability in combat. Fighters and Clerics start higher.
+
+Mana/Spell Points: Used for magic abilities. Wizards and Clerics rely heavily on this.
+
+Strength: Physical damage and carrying capacity.
+
+Dexterity: Accuracy, evasion, stealth, ranged combat. Rogues excel here.
+
+Intelligence: Spell power, problem-solving, magical knowledge. Wizards dominate.
+
+Constitution: Increases HP and resistance to environmental effects.
+
+Perception/Skill: Spotting traps, hidden doors, ambushes, tracking. Rogues excel, others moderate.

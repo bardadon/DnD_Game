@@ -1,0 +1,66 @@
+############# Create Dynamic description for monsters ##############
+m_system->GetDynamicDescriptionForMonsters() which will be used in bool CommandDispacher::Look(const std::string& strCommand
+
+When a character has entered a room, they should be able to see whether there are Monsters up to N tiles away in all directions
+
+There will be number of factors contributing to N:
+	- Distance from player to monster
+	- Character perception skills
+	- Area biome(plains and deserts receive a bonues, Forests and mountains receive a penalty)
+	- Point Altitude
+		- Each point will have an altitude, if the altitude of the point is bigger than that of the Monster, thats a bonus, otherwise thats a penalty
+	- Also Depends on the type of animals. The size and Stealth of an animal is another factor
+			- Large animals will give the player a bonus
+			- Animals with stealth give the player a penalty
+
+	- The combination of all of these factors will determine the value of N for a specific animal. A different animal might have a different N
+
+
+- Currently to make this simple, N factor will be a simple addition of all of these factors. Each one will contribute 1 or -1
+#######################################################################################################################################
+
+
+
+
+
+
+############# Movement system for monsters ##############
+Monsters should be able to walk around the room eveny N time units.
+for now, every 5 commands a user issues, all the monsters in the current area will move randomly 1 tile.
+
+
+#######################################################################################################################################
+
+
+
+############# Calculate the N factor for each monster in the room ##############
+use it to cause monsters to be seen by the user when entering a point or a room
+
+
+N can also be used for the Movement system for monsters. Each monster will have their own calculation of N factor which will determine whether they see the user or not.
+
+If they do see him, they might start to advance towards him if they are hostile, or maybe run away.
+
+#######################################################################################################################################
+
+
+
+
+
+
+############# Replace room id and point id with descriptive names ##############
+[Location: Emberlight Citadel | RoomIdx: 0  | PointIdx: 1  | Cords: [1,0]>
+
+instead of this, do something like this:
+ [Location: Emberlight Citadel | Citadel Open Market: 0  | Wesly's Armor Shop: 1  | Cords: [1,0]>
+[Location: Emberlight Citadel | The Spine Mountains: 0  | River: 1  | Cords: [100,0]>
+
+
+#######################################################################################################################################
+
+
+
+
+
+
+

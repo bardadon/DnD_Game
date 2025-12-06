@@ -1,0 +1,168 @@
+Player Class
+- hp, attack, lvl, exp, exp_to_next_lvl, def, etc...
+- *Class
+- *Map
+- Current Location = (area name, room index, point in room)
+
+
+
+
+
+
+
+Map Class
+- Generate Room function
+	- The map class will have an array of events. 
+	- Example of events is: A quest giver npc, one or more monsters, random npc, information giver npc, and much more
+	- Each event is a function, that will handle the logic required to create the event
+	- Generation of a room will be to run on on all points in the room, and according to some probability activate one of the event functions on a point
+	For(i = 0 ---> room.size)
+		if probability_for_event1:
+			GenereateEvent1(x, y)
+		else if probability for event2:
+			GenerateEvent2(x, y)
+		etc...
+
+- MoveObjectsInRoom(location of room)
+	- iterate over all movable npcs/monsters and move them every 1 game-time unit
+
+
+- map<Area Name, *Area>
+
+
+* All areas and rooms will have fixed size
+	- Lets say an area is a  grid of 10x10 rooms
+	- Each room is a grid of 50x50 points
+
+* Areas are connected to each other according to the map in the Areas.txt file. Each area will have a pointer to its neighbors.
+
+* Rooms will be generated when a user enters an area. I will launch a loading message that will generate the area, AND SAVE IT TO DISK
+	- so when a user leaves an area I will delete it, and when they reenter, we can just load it from disk.
+	- This is important because we dont want to keep ALL OF THE WORLD MAP in memory. And also, since rooms are randomized I dont want that areas and rooms will change each time
+		the player enters and leaves. Once a room has been cleared, than thats it, it wont genereate new events(other than maybe respawning of monsters)
+
+
+
+
+Area Class: public Map
+- vector<Area*> neighborAreas
+- vector<int> rooms
+- Biome/Category
+- difficulty lvl 
+- modifiers
+- etc...
+
+
+
+Room  Class: public Area
+- vector<int> room_points
+- string strRoomDescription
+- Vector<Npcs/Monsters/etc> m_vNpcs/Monsters
+- Vector<Object> m_vObjects
+	
+* Room objects will keep track of the npcs, monsters and objects in the room
+
+
+* Each time a user enters a room, we will show the room description as prompt.
+* When a user uses the command Look, we will show the room description
+* After the "hard coded" room description, we can show dynamic events like if there are monsters in the room, npcs, was a raiding party here recently that left some
+clues.
+* We can do this by iterating over all monsters/npcs in the current area(taken from the system class map), and if there are any of them, we can print a description of them. Something like "There are 2 wolves"
+* Then when using "look at wolf", we can print m_pInstance->PrintDescirption() from the npc wolf object
+
+* Same with items. Item can be a class of its own. When using look at <item> we print the item description
+* Some items will be interactable, they will be able to accept certain commands. So a sword on a table will be able to accept the "Take" command for example
+
+
+
+
+
+
+
+
+
+Object Class
+- string item_description
+
+Item: public Object
+
+Weapon: public Item
+- string item_description
+- can accept the command Get/Take
+
+
+* Object class handles the logic, description and so on of objects in the world such as doors, tables. It can inherit from Item in order to process objects that are player items such as potions, weapons and so on
+
+
+
+Commands Class
+- map<CommandString, std::function<>(CommandString)
+
+- Look(CommandString)
+	- Print room descirption
+- LookAtObject(CommandString)
+	- Check if the last word in CommandString is one of the Objects in the room
+- Kill(CommandString)
+	- Kill <Snake>
+	- Check if the last word in ComandString is one of the attackable npcs in the room
+etc
+
+
+* This class will handle all the logic required from taking the user string and processing it as world commands. It will keep a map of string commands and map them to functions
+
+
+
+
+
+
+
+
+
+NPC Class
+- string npc_description
+- string npc_talk
+- quest info
+
+
+
+* SImiliar to the login with rooms. When using the talk command to talk to an npc, I can print the npc_descirption or npc_talk prompt
+
+
+
+System Class
+- GameLoop
+- Vector/Map of all the active npcs/monsters in the game, sorted by areas
+	- I want the System to run a different thread that will change the current position of each npcs/monster in the game to simulate the idea that they can walk around in the room
+	- We can think about the game as moving in a time frames of 1 turn
+	- Each time a player sends a command, it is considered as 1 turn
+	- Each turn all sentient instances in the game can move to any direction(if it makes sense, ie, if there's a family in a house it doesn't make sense for them to move)
+
+
+
+
+Lore Class
+	- Currently I dont have a use for the Lore class. Currently most of the logic of interactions and prompts will be handle by the individual
+	Monster/Npc/Item/Object classes
+	- Even more complicated logic such, "only if I completed quest number 10, and have a purple gem, then a Hidden Door will be opened with the command "Open" "
+		even this can be completetly hanleded by the Object class
+
+
+
+
+
+Class Class
+
+
+
+
+
+
+
+
+######################### General Implementation Notes ###################################
+- Add a logging system
+
+
+
+
+

@@ -1,0 +1,11 @@
+﻿  GameObject.cpp
+  GameObject.hpp
+  Map.cpp
+  Trie.cpp
+  Trie.hpp
+  System.cpp
+  test_DnDGame.cpp
+  Generating Code...
+x64\Debug\GameObject.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\Trie.obj : warning LNK4042: object specified more than once; extras ignored
+  DnDGame.vcxproj -> C:\Users\UserPc\source\repos\DnDGame\x64\Debug\DnDGame.exe
