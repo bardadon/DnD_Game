@@ -1,0 +1,145 @@
+BARBARIAN (BERSERKER) LEVEL PROGRESSION 1–20
+
+LEVEL 1
+Features:
+
+Rage (2 uses, +2 damage)
+
+Unarmored Defense (AC = 10 + DEX + CON)
+
+LEVEL 2
+Features:
+
+Reckless Attack
+
+Danger Sense
+
+LEVEL 3
+Features:
+
+Path of the Berserker chosen
+
+Frenzy (while raging, you may enter a Frenzy: make one extra melee attack as a Bonus Action each turn; gain Exhaustion when Rage ends)
+
+LEVEL 4
+Features:
+
+Ability Score Improvement (ASI) or Feat
+
+LEVEL 5
+Features:
+
+Extra Attack (2 attacks)
+
+Fast Movement (+10 ft speed, not in heavy armor)
+
+LEVEL 6
+Features:
+
+Mindless Rage (while raging: immune to charm + fear; ending rage ends these conditions)
+
+LEVEL 7
+Features:
+
+Feral Instinct (advantage on initiative; act on surprise if you rage first)
+
+LEVEL 8
+Features:
+
+Ability Score Improvement (ASI) or Feat
+
+LEVEL 9
+Features:
+
+Brutal Critical (1 extra weapon damage die on crits)
+
+LEVEL 10
+Features:
+
+Intimidating Presence (action: frighten a creature; lasts until you end your turn without attacking it; CHA save to resist)
+
+LEVEL 11
+Features:
+
+Relentless Rage (CON save to stay at 1 HP when reduced to 0 while raging)
+
+LEVEL 12
+Features:
+
+Ability Score Improvement (ASI) or Feat
+
+LEVEL 13
+Features:
+
+Brutal Critical improvement (+2 damage dice on crits)
+
+LEVEL 14
+Features:
+
+Retaliation (reaction: make a melee attack against a creature that hits you within 5 ft)
+
+LEVEL 15
+Features:
+
+Persistent Rage (rage only ends if you choose or if you fall unconscious)
+
+LEVEL 16
+Features:
+
+Ability Score Improvement (ASI) or Feat
+
+LEVEL 17
+Features:
+
+Brutal Critical improvement (+3 damage dice on crits)
+
+LEVEL 18
+Features:
+
+Indomitable Might (STR checks treated as minimum equal to your STR score)
+
+LEVEL 19
+Features:
+
+Ability Score Improvement (ASI) or Feat
+
+LEVEL 20
+Features:
+
+Primal Champion (+4 STR and +4 CON; maximums become 24)
+
+RAGE PROGRESSION
+
+Level 1–2: 2 uses (+2 damage)
+Level 3–5: 3 uses (+2 damage)
+Level 6–8: 4 uses (+2 damage)
+Level 9–11: 4 uses (+3 damage)
+Level 12–16: 5 uses (+3 damage)
+Level 17–19: 6 uses (+4 damage)
+Level 20: Unlimited uses (+4 damage)
+
+NOTES ON BERSERKER FEATURES (plain explanation)
+
+Frenzy (Level 3):
+
+Bonus Action melee attack every turn while Frenzied.
+
+Gain 1 level of Exhaustion when Rage ends.
+
+Mindless Rage (Level 6):
+
+Immune to charm and fright while raging.
+
+If already affected, effects pause during Rage.
+
+Intimidating Presence (Level 10):
+
+Action: frighten a creature within 30 ft.
+
+Target repeats CHA save at end of each turn to end effect.
+
+Ends early if you move too far away or do nothing aggressive.
+
+Retaliation (Level 14):
+
+When a creature hits you in melee, you may use your Reaction to make a melee attack back.

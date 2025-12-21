@@ -1,0 +1,75 @@
+
+I will describe how I view combat-related exploration in this game.
+
+
+
+In this game, areas are large, probably something like 10 square km, maybe more. Each Area is a grid 10x10 = 100 rooms. Meaning, if an Area has a length of 10km, than a room has a length of 10km/10 = 1km = 1000 meters
+
+A room is the size of 50x50 points = 2500, so each point has a length of 1000/50 = 20 meters
+
+
+Lets say I start at area = 0, room = 0 at (0,0)
+
+I will get a prompt describing the current point
+
+Also I will get a prompt describing objects in the current point
+
+And regarding combat, depending on the biome(jungle vs plains and desert for example) I will get a prompt notifying me about the location of nearby monsters. I want to move from point to point but also keep the larger room in mind.
+The player will be aware of what goes on in the room while they navigate between the points.
+
+Something like:
+
+"
+Area: the whispering forest ----> Area prompt
+Location: Forest entrance ------> Room prompt
+
+You have entered the whispering forest, you get a strange feeling that this forest is more dangerous than it seems. -----> Point prompt
+You spot 2 wolves at northeast at location (20,5) ------> Dynamic prompt because the wolves are near the player so they can see them
+"
+
+
+
+
+
+
+
+
+Furthermore, the wolves will be moving throughout the forest each N units of time. Each monster will have M tiles that if the player is in them, the wolves will be aware of them and if they are hostile, will either move towards the
+player, or run away from them(wolves can be considered hostile, deers will run away)
+
+
+
+
+
+Regarding populating the room with npcs, obejcts and monsters.
+The Npcs and objects, quests and so on will be populated manually by me(maybe not all of them, but the vast majority)
+
+However, the monsters will be populated using some probability. I will use what chat gpt wrote about the biome encounters and use that to populate the room. So for example, If Wolf needs a d20 roll of 1, and a Bear needs a d20 roll of 10
+Then there should be somewhere about 10 times as many wolves as Bears.
+
+However, their location and exact numbers will not be known to me. The amount will be determined when generating the room, and their location will change as time goes on.
+
+
+
+
+
+################# Dynamic Descriptions ###################
+When a character has entered a room, they should be able to see whether there are Monsters up to N tiles away in all directions
+
+There will be number of factors contributing to N:
+	- Character perception skills
+	- Area biome(plains and deserts receive a bonues, Forests and mountains receive a penalty)
+	- Also Depends on the type of animals. The size and Stealth of an animal is another factor
+			- Large animals will give the player a bonus
+			- Animals with stealth give the player a penalty
+
+	- The combination of all of these factors will determine the value of N for a specific animal. A different animal might have a different N
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,487 @@
+
+
+################ Weapon Ranges #################
+Weapon Type	Range (tiles)	Notes
+Normal Melee	1	Standard melee, adjacent square
+Reach Melee	2	Weapons with the Reach property (Glaive, Halberd, Pike, Whip, Lance*)
+Shortbow	16	Ranged weapon, normal range 80 ft
+Longbow	30	Ranged weapon, normal range 150 ft
+Light Crossbow	16	Ranged weapon, normal range 80 ft
+Heavy Crossbow	20	Ranged weapon, normal range 100 ft
+Hand Crossbow	6	Ranged weapon, normal range 30 ft
+
+
+
+
+################ Weapon Types #################
+
+
+
+🗡️ SIMPLE MELEE WEAPONS
+
+Club
+Damage: 1d4 bludgeoning
+Range: melee
+Properties: Light
+Weight: 2 lb
+Recommended Level: 1
+Category: Simple Melee
+
+
+
+Dagger
+
+Damage: 1d4 piercing
+
+Range: 20/60 (thrown)
+
+Properties: Finesse, Light, Thrown
+
+Weight: 1 lb
+
+Recommended Level: 1
+
+
+
+Greatclub
+
+Damage: 1d8 bludgeoning
+
+Range: melee
+
+Properties: Two-Handed
+
+Weight: 10 lb
+
+Recommended Level: 1
+
+
+
+Handaxe
+
+Damage: 1d6 slashing
+
+Range: 20/60 (thrown)
+
+Properties: Light, Thrown
+
+Weight: 2 lb
+
+Recommended Level: 1
+
+
+
+Javelin
+
+Damage: 1d6 piercing
+
+Range: 30/120 (thrown)
+
+Properties: Thrown
+
+Weight: 2 lb
+
+Recommended Level: 1
+
+
+
+Light Hammer
+
+Damage: 1d4 bludgeoning
+
+Range: 20/60 (thrown)
+
+Properties: Light, Thrown
+
+Weight: 2 lb
+
+Recommended Level: 1
+
+
+
+Mace
+
+Damage: 1d6 bludgeoning
+
+Range: melee
+
+Properties: —
+
+Weight: 4 lb
+
+Recommended Level: 1
+
+
+
+Quarterstaff
+
+Damage: 1d6 bludgeoning (1d8 versatile)
+
+Range: melee
+
+Properties: Versatile (1d8)
+
+Weight: 4 lb
+
+Recommended Level: 1
+
+
+
+Sickle
+
+Damage: 1d4 slashing
+
+Range: melee
+
+Properties: Light
+
+Weight: 2 lb
+
+Recommended Level: 1
+
+
+
+Spear
+
+Damage: 1d6 piercing (1d8 versatile)
+
+Range: 20/60 (thrown)
+
+Properties: Thrown, Versatile (1d8)
+
+Weight: 3 lb
+
+Recommended Level: 1
+
+
+
+🏹 SIMPLE RANGED WEAPONS
+Light Crossbow
+
+Damage: 1d8 piercing
+
+Range: 80/320
+
+Properties: Loading, Two-Handed
+
+Weight: 5 lb
+
+Recommended Level: 1–3
+
+
+
+Dart
+
+Damage: 1d4 piercing
+
+Range: 20/60
+
+Properties: Finesse, Thrown
+
+Weight: 0.25 lb
+
+Recommended Level: 1
+
+
+
+Shortbow
+
+Damage: 1d6 piercing
+
+Range: 80/320
+
+Properties: Two-Handed
+
+Weight: 2 lb
+
+Recommended Level: 1
+
+
+
+Sling
+
+Damage: 1d4 bludgeoning
+
+Range: 30/120
+
+Properties: —
+
+Weight: —
+
+Recommended Level: 1
+
+
+
+⚔️ MARTIAL MELEE WEAPONS
+Battleaxe
+
+Damage: 1d8 slashing (1d10 versatile)
+
+Properties: Versatile
+
+Weight: 4 lb
+
+Recommended Level: 2+
+
+
+
+Flail
+
+Damage: 1d8 bludgeoning
+
+Properties: —
+
+Weight: 2 lb
+
+Recommended Level: 2+
+
+
+
+Glaive
+
+Damage: 1d10 slashing
+
+Properties: Heavy, Reach, Two-Handed
+
+Weight: 6 lb
+
+Recommended Level: 3+
+
+
+
+Greataxe
+
+Damage: 1d12 slashing
+
+Properties: Heavy, Two-Handed
+
+Weight: 7 lb
+
+Recommended Level: 3+
+
+
+
+Greatsword
+
+Damage: 2d6 slashing
+
+Properties: Heavy, Two-Handed
+
+Weight: 6 lb
+
+Recommended Level: 3+
+
+
+
+Halberd
+
+Damage: 1d10 slashing
+
+Properties: Heavy, Reach, Two-Handed
+
+Weight: 6 lb
+
+Recommended Level: 3+
+
+
+
+Lance
+
+Damage: 1d12 piercing
+
+Range: melee but special (disadvantage at close range)
+
+Properties: Reach, Special
+
+Weight: 6 lb
+
+Recommended Level: 3+
+
+
+
+Longsword
+
+Damage: 1d8 slashing (1d10 versatile)
+
+Properties: Versatile
+
+Weight: 3 lb
+
+Recommended Level: 1–3
+
+
+
+Maul
+
+Damage: 2d6 bludgeoning
+
+Properties: Heavy, Two-Handed
+
+Weight: 10 lb
+
+Recommended Level: 3+
+
+
+
+Morningstar
+
+Damage: 1d8 piercing
+
+Properties: —
+
+Weight: 4 lb
+
+Recommended Level: 3+
+
+
+
+Pike
+
+Damage: 1d10 piercing
+
+Properties: Heavy, Reach, Two-Handed
+
+Weight: 18 lb
+
+Recommended Level: 3+
+
+
+
+Rapier
+
+Damage: 1d8 piercing
+
+Properties: Finesse
+
+Weight: 2 lb
+
+Recommended Level: 1–3
+
+
+
+Scimitar
+
+Damage: 1d6 slashing
+
+Properties: Finesse, Light
+
+Weight: 3 lb
+
+Recommended Level: 1–3
+
+
+
+Shortsword
+
+Damage: 1d6 piercing
+
+Properties: Finesse, Light
+
+Weight: 2 lb
+
+Recommended Level: 1–3
+
+
+
+Trident
+
+Damage: 1d6 piercing (1d8 versatile)
+
+Range: 20/60
+
+Properties: Thrown, Versatile
+
+Weight: 4 lb
+
+Recommended Level: 1–3
+
+
+
+War Pick
+
+Damage: 1d8 piercing
+
+Weight: 2 lb
+
+Recommended Level: 3+
+
+
+
+Warhammer
+
+Damage: 1d8 bludgeoning (1d10 versatile)
+
+Weight: 2 lb
+
+Recommended Level: 1–3
+
+
+
+🎯 MARTIAL RANGED WEAPONS
+Blowgun
+
+Damage: 1 piercing
+
+Range: 25/100
+
+Properties: Loading
+
+Weight: 1 lb
+
+Recommended Level: 5+
+
+
+
+Hand Crossbow
+
+Damage: 1d6 piercing**
+
+Range: 30/120
+
+Properties: Light, Loading
+
+Weight: 3 lb
+
+Recommended Level: 2–4
+
+
+
+Heavy Crossbow
+
+Damage: 1d10 piercing**
+
+Range: 100/400
+
+Properties: Heavy, Loading, Two-Handed
+
+Weight: 18 lb
+
+Recommended Level: 4+
+
+
+
+Longbow
+
+Damage: 1d8 piercing**
+
+Range: 150/600
+
+Properties: Heavy, Two-Handed
+
+Weight: 2 lb
+
+Recommended Level: 3+
+
+
+
+Net
+
+Damage: 0 (restrains target)
+
+Range: 5/15
+
+Properties: Thrown, Special
+
+Weight: 3 lb
+
+Recommended Level: Any

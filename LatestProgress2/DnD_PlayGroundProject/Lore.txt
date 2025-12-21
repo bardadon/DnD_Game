@@ -1,0 +1,252 @@
+🌌 World Name: Eryndor
+1. World History
+The Age of Creation
+
+Eryndor was forged by the primordial deities known as the Seven Shapers, each representing a force of nature: Flame, Frost, Storm, Stone, Life, Shadow, and Spirit.
+
+These Shapers created the continents, seas, and magical ley lines that power the world.
+
+Mortal civilizations rose along the ley lines, drawing magic from these ancient veins.
+
+
+The Age of Heroes
+
+Legendary figures arose: kings, sorcerers, and warrior-champions who shaped nations.
+
+The Great Sundering, a cataclysm caused by misuse of forbidden magic, split continents and cursed the Shadowlands.
+
+Many ruins scattered across Eryndor are remnants of this heroic age.
+
+
+
+
+The Age of Strife
+
+Nations vied for control over magic-rich territories.
+
+Dragons, giants, and elemental beings became both protectors and threats.
+
+The Emberlight Citadel fell, leaving a scar of ash and fire.
+
+The Shadowlands spread from the north, corrupting the land.
+
+
+
+The Current Era (The Twilight of Magic)
+
+Magic is waning in some regions and unpredictable in others.
+
+New threats rise: necromantic cults, sea-born monsters, and the return of ancient beasts.
+
+Adventurers are called to restore balance, discover lost artifacts, and explore forgotten lands.
+
+
+
+
+2. Current World Status
+
+Eryndor is fragmented: kingdoms, city-states, wilderness, and cursed lands coexist uneasily.
+
+Magic is unreliable in many areas; ley lines are unstable.
+
+Trade and travel are dangerous due to roaming monsters and bandit clans.
+
+Heroes are in high demand: kingdoms hire adventurers to explore ruins, secure towns, or investigate magical anomalies.
+
+Ancient prophecy whispers of the “Reawakening of the Seven,” a coming event that could either save or destroy the world.
+
+
+
+
+3. Major Factions and Actors
+
+| Faction/Actor                 | Role                                      | Notes                                                                                                                                           |
+| ----------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **The Emberlight Council**    | Human-led coalition of mages and warriors | Seeks to reclaim the lost Emberlight Citadel; rivals the Shadow Cult                                                                            |
+| **The Shadow Cult**           | Necromantic organization                  | Spreads corruption from the Shadowlands; rumored to have a lich leader                                                                          |
+| **The Verdant Circle**        | Druids and forest guardians               | Protect forests and ley lines; neutral but wary of outsiders                                                                                    |
+| **The Seaborn Guild**         | Pirates and merchants of the coast        | Controls sea trade routes; sometimes hires adventurers for privateering                                                                         |
+| **Dragons of the High Peaks** | Ancient dragons                           | Occasionally intervene in mortal conflicts; viewed as gods or demons                                                                            |
+| **Famed Heroes**              | Individuals                               | Examples: *Kael of Stormvale* (lightning mage), *Lyra Windstrider* (ranger of Whispering Woods), *Thorn Ironfist* (dwarf warrior, relic hunter) |
+| **Nomadic Tribes**            | Various                                   | Wander plains, deserts, and tundras; skilled scouts and trackers                                                                                |
+
+
+
+4. Notable Locations and Their Lore
+| Location                    | Lore/History                                                                                  |
+| --------------------------- | --------------------------------------------------------------------------------------------- |
+| **Whispering Woods**        | Forest inhabited by ancient fey; some trees are sentient; home to hidden portals              |
+| **Ashen Peaks**             | Volcanic mountains; dragon lairs and fire cult remnants; site of the Great Sundering          |
+| **Stormvale Plains**        | Open plains; occasional lightning storms; birthplace of heroes like Kael of Stormvale         |
+| **Shadowlands**             | Land corrupted by forbidden magic; undead roam freely; light is weak and fear is constant     |
+| **Emberlight Citadel**      | Once a capital of a powerful kingdom; now ruined and haunted by fire spirits                  |
+| **Ruins of Arvandor**       | Ancient city destroyed in the Age of Heroes; riddled with traps, golems, and hidden treasures |
+| **Isle of the Fallen Star** | Arcane island where a meteor crashed; source of rare magical energy                           |
+
+
+
+
+5. Rumors and Hooks for Adventurers
+
+Strange lights in the Shadowlands at night may be portals to another plane.
+
+Sea monsters have begun attacking merchant ships more aggressively — the Seaborn Guild wants help.
+
+The Emberlight Citadel may hold a relic capable of restoring ley line balance.
+
+Whispering Woods’ trees are spreading a strange disease that affects nearby villages.
+
+Nomadic tribes report sightings of “frost giants moving in silence” across Tundra borders.
+
+
+
+
+
+
+
+🌌 Eryndor Living Timeline
+
+| Year | Event                          | Notes / Impact                                                                              |
+| ---- | ------------------------------ | ------------------------------------------------------------------------------------------- |
+| -500 | **The Age of Creation**        | The Seven Shapers form the world. Magic is abundant, continents and ley lines established.  |
+| -200 | **First Civilizations**        | Humans, elves, dwarves settle along ley lines. Ancient cities like Arvandor flourish.       |
+| -50  | **The Great Sundering**        | Forbidden magic destroys kingdoms; Shadowlands formed; many ruins remain.                   |
+| 0    | **The Age of Heroes Ends**     | Legendary heroes like Kael and Lyra pass on; artifacts scattered.                           |
+| 50   | **Rise of Emberlight Citadel** | Human kingdom dominates central lands; trade and magic flourish.                            |
+| 200  | **Shadow Cult Emergence**      | Necromantic cult forms in Shadowlands; undead activity increases.                           |
+| 350  | **Dragon Treaties**            | High Peaks dragons agree to oversee mortal conflicts; some dragons become gods to locals.   |
+| 500  | **Twilight of Magic**          | Ley lines unstable; magic unreliable in many regions; adventurers highly sought.            |
+| 505  | **Recent Events**              | Sea monsters disrupt trade; forest disease spreads; Emberlight Citadel ruins show activity. |
+
+
+🧑‍🤝‍🧑 NPC Network & Faction Relations
+
+Factions Overview
+| Faction            | Influence                  | Allies              | Enemies                            | Goals                                  |
+| ------------------ | -------------------------- | ------------------- | ---------------------------------- | -------------------------------------- |
+| Emberlight Council | High (Central Kingdoms)    | Verdant Circle      | Shadow Cult                        | Reclaim Citadel, stabilize magic       |
+| Shadow Cult        | Medium (Shadowlands)       | Rogue necromancers  | Emberlight Council, Verdant Circle | Spread corruption, summon dark power   |
+| Verdant Circle     | Medium (Forests & Plains)  | Some Nomadic Tribes | Shadow Cult, Raiders               | Protect ley lines, maintain balance    |
+| Seaborn Guild      | Medium (Coastlines)        | Pirates, Merchants  | Sea monsters, rival guilds         | Protect trade routes, expand influence |
+| Nomadic Tribes     | Low (Plains/Desert/Tundra) | Verdant Circle      | Raiders, some monsters             | Survive, control migration paths       |
+
+
+
+
+Key NPCs
+| NPC Name              | Faction            | Location         | Role                      | Notes                                                                |
+| --------------------- | ------------------ | ---------------- | ------------------------- | -------------------------------------------------------------------- |
+| **Kael of Stormvale** | Emberlight Council | Stormvale Plains | Lightning Mage Hero       | Legendary figure; rumored alive; occasionally aids adventurers       |
+| **Lyra Windstrider**  | Verdant Circle     | Whispering Woods | Ranger & Scout            | Protects forests; offers quests for magical herbs                    |
+| **Thorn Ironfist**    | Independent        | Ashen Peaks      | Dwarf Relic Hunter        | Finds artifacts; sometimes sells info to Emberlight or Seaborn Guild |
+| **Malrith the Shade** | Shadow Cult        | Shadowlands      | Necromancer / Cult Leader | Spreads corruption; key antagonist                                   |
+| **Captain Selene**    | Seaborn Guild      | Coastline Ports  | Pirate Captain            | Offers missions; knows rumors of sea monsters                        |
+| **Elder Thalos**      | Nomadic Tribes     | Stormvale Plains | Chieftain                 | Knowledge of migration paths, desert crossings                       |
+| **Aurielle**          | Verdant Circle     | Whispering Woods | Druid Priestess           | Can give buffs or guide adventurers; wary of outsiders               |
+
+
+
+
+
+
+Dynamic Relationships
+
+NPCs and factions react to player actions:
+
+Killing Shadow Cult minions increases Emberlight Council favor.
+
+Destroying forest landmarks angers Verdant Circle.
+
+Sea-based missions influence Seaborn Guild’s trading power.
+
+Factions can have conflicts that spawn events:
+
+Shadow Cult raids a village → triggers Emberlight Council retaliation → affects nearby map areas.
+
+Dragons patrol High Peaks → may attack parties trespassing or defend against Shadow Cult incursions.
+
+NPCs move on the map based on daily/weekly cycles or major events:
+
+Lyra Windstrider moves between forest areas to check ley lines.
+
+Thorn Ironfist travels to ruins or mountain passes seeking artifacts.
+
+Captain Selene patrols coasts; may appear in unexpected ports.
+
+
+
+
+
+
+
+
+
+
+Eryndor – World State Table
+
+| Area # | Name                    | Biome                | Controlling Faction   | NPCs Present                            | Dynamic Events / Quests                                    | Danger Level (1-5) | Special Loot / Resources                     |
+| ------ | ----------------------- | -------------------- | --------------------- | --------------------------------------- | ---------------------------------------------------------- | ------------------ | -------------------------------------------- |
+| 0      | Whispering Woods        | Forest               | Verdant Circle        | Lyra Windstrider, Aurielle              | Collect herbs, clear corrupted fey, defend ley lines       | 3                  | Magical herbs, fey dust                      |
+| 1      | Stormvale Plains        | Plains/Grasslands    | Emberlight Council    | Kael of Stormvale, Elder Thalos         | Defend village from raiders, track migrating herds         | 2                  | Lightning-charged stones, rare grains        |
+| 2      | Ashen Peaks             | Volcanic/Mountains   | Independent / Dragons | Thorn Ironfist, Dragons of High Peaks   | Explore volcano ruins, prevent fire cult rituals           | 4                  | Obsidian shards, ember cores                 |
+| 3      | Shadowlands             | Shadowlands/Cursed   | Shadow Cult           | Malrith the Shade, Undead patrols       | Investigate shadow rifts, rescue captured villagers        | 5                  | Shadow essence, necrotic runes               |
+| 4      | Emberlight Citadel      | Ruins / Ancient City | Emberlight Council    | Emberlight patrols, adventurer parties  | Reclaim citadel, defeat fire spirits                       | 5                  | Ancient relics, ember cores                  |
+| 5      | Ruins of Arvandor       | Ruins / Ancient City | Independent           | Treasure hunters, animated guardians    | Explore ruins, trap clearance, find lost artifacts         | 4                  | Gold coins, runic plates, scroll fragments   |
+| 6      | Ashen Desert            | Desert               | Nomadic Tribes        | Nomad scouts, wandering merchants       | Locate water sources, fend off raiders, desert exploration | 3                  | Desert crystals, ancient coins               |
+| 7      | Tundra Wastes           | Tundra               | Nomadic Tribes        | Hunters, frost giants patrol            | Survive blizzards, track rare beasts                       | 4                  | Frost crystals, preserved artifacts          |
+| 8      | Coastline Ports         | Coastline / Ocean    | Seaborn Guild         | Captain Selene, fishermen, pirates      | Protect trade routes, investigate sea monsters             | 3                  | Coral, tide crystals, rare fish              |
+| 9      | Isle of the Fallen Star | Arcane Island        | Independent           | Arcane researchers, elemental guardians | Investigate meteor magic, recover rare arcane shards       | 4                  | Meteor fragments, magical energy cores       |
+| 10     | Plains of Thunder       | Plains/Grasslands    | Emberlight Council    | Centaur patrols, farmers                | Lightning storms, monster migration tracking               | 2                  | Storm-infused stones, centaur-crafted arrows |
+| 11     | Frostwind Cliffs        | Mountains / Tundra   | Independent           | Ice trolls, frost spirits               | Protect villages from avalanches, explore caves            | 4                  | Ice runes, giant bones                       |
+| 12     | Swamplands of Murk      | Swamp                | Verdant Circle        | Witches, crocodiles, undead             | Cure swamp disease, explore hidden ruins                   | 4                  | Venom, swamp relics, rare fungi              |
+| 13     | High Peaks              | Mountains            | Dragons of High Peaks | Dragons, stone giants                   | Prevent warband conflicts, defend ley lines                | 5                  | Rare ores, sky-steel, dragon scales          |
+| 14     | Cursed Marshes          | Shadowlands / Swamp  | Shadow Cult           | Shadow beasts, undead knights           | Sanity-based exploration, retrieve cursed relics           | 5                  | Cursed feathers, shadow essence              |
+| 15     | Forgotten Coast         | Coastline / Ocean    | Seaborn Guild         | Pirates, sahuagin patrol                | Rescue shipwrecked survivors, track sea monsters           | 3                  | Enchanted shells, rare fish                  |
+| 16     | Ancient Catacombs       | Ruins                | Independent           | Undead scholars, golems                 | Solve ancient puzzles, recover lost artifacts              | 4                  | Gold, runic plates, arcane shards            |
+| 17     | Ember Sands             | Desert               | Nomadic Tribes        | Desert scorpions, nomads                | Find hidden oases, battle sand elementals                  | 3                  | Desert herbs, sun-blessed relics             |
+| 18     | Frostbite Fjord         | Coastline / Tundra   | Nomadic Tribes        | Frost giants, hunters                   | Sea-ice navigation, protect settlements                    | 4                  | Frost crystals, magical ice materials        |
+| 19     | Twilight Hollow         | Shadowlands          | Shadow Cult           | Wraiths, cursed beasts                  | Defeat roaming shadows, investigate dark cults             | 5                  | Shadow essence, necrotic relics              |
+
+
+
+
+
+
+Key Notes on Using This Table
+
+NPCs move based on time/events — e.g., Lyra might patrol multiple forest areas.
+
+Dynamic events can trigger random encounters or quests, e.g.:
+
+Emberlight Citadel may spawn fire spirits at night.
+
+Shadowlands may spawn wraith patrols randomly.
+
+Danger Level guides encounter tables:
+
+1–2: Mostly wildlife / minor hazards
+
+3: Mixed creatures, occasional hazards
+
+4: Strong monsters + environmental hazards
+
+5: Boss-level encounters / high event frequency
+
+Special loot/resources can be generated when the player explores the area fully.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
