@@ -1,0 +1,19 @@
+########################### Quest flow and placement in the world ###########################
+I think it would be better for the immersion of the game and easier to program if the player will only be able to do a single quest at a time.
+
+Each quest will have some story in the world, DnD style. It will have a story, climax, reward and so on.
+
+I want to avoid random grind quests such as kill 20 wolves.
+
+While the player is not doing a quest, they will explore the world, be able to talk to people, kill things and so on, but once they accept a quest, they commited to either completeing it or abandoning it, without doing other quests.
+
+They will stil be able to exlore, they just wont be able to take other quests.
+
+This will help feel like the world more DnD like. I want it to feel like a DM is telling a story and building a campaign for the player.
+
+
+Coding wise, this is also easier, Once the player accepts a quest, I can run a code to Set up the world for the quest. Place certain monsters somewhere, place unique npcs, populate certain zones and so on.
+
+An important point is that the world is still a free open world, the player can choose to go where ever they want, its just that every time they accept a quest, they essentially start a mini campaign
+
+#############################################################################################

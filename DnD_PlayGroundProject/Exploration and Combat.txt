@@ -48,3 +48,28 @@ However, the monsters will be populated using some probability. I will use what 
 Then there should be somewhere about 10 times as many wolves as Bears.
 
 However, their location and exact numbers will not be known to me. The amount will be determined when generating the room, and their location will change as time goes on.
+
+
+
+
+
+################# Dynamic Descriptions ###################
+When a character has entered a room, they should be able to see whether there are Monsters up to N tiles away in all directions
+
+There will be number of factors contributing to N:
+	- Character perception skills
+	- Area biome(plains and deserts receive a bonues, Forests and mountains receive a penalty)
+	- Also Depends on the type of animals. The size and Stealth of an animal is another factor
+			- Large animals will give the player a bonus
+			- Animals with stealth give the player a penalty
+
+	- The combination of all of these factors will determine the value of N for a specific animal. A different animal might have a different N
+
+
+
+
+
+
+
+
+

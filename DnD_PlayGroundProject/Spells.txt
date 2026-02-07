@@ -1,0 +1,49 @@
+Name: Fire Bolt
+Damage: 1d10 fire
+Range: 24 squares
+Description: A bolt of fire streaks toward a creature. On a hit, it deals fire damage. Can target creatures at long range.
+
+Name: Ray of Frost
+Damage: 1d8 cold
+Range: 12 squares
+Description: A frigid beam of blue-white light slows a creature and deals cold damage.
+
+Name: Eldritch Blast
+Damage: 1d10 force
+Range: 24 squares
+Description: A beam of magical force streaks toward a creature. Can be scaled with levels. Cantrip for warlocks.
+
+Name: Toll the Dead
+Damage: 1d8 necrotic (or 1d12 if target is missing HP)
+Range: 12 squares
+Description: Rings a mystical bell that damages the target with necrotic energy.
+
+Name: Chill Touch
+Damage: 1d8 necrotic
+Range: 24 squares
+Description: A ghostly skeletal hand appears to touch the target, dealing necrotic damage and preventing healing.
+
+Name: Shocking Grasp
+Damage: 1d8 lightning
+Range: 1 square (melee touch)
+Description: You deliver a jolt of electricity. Target cannot take reactions until next turn.
+
+Name: Sacred Flame
+Damage: 1d8 radiant
+Range: 12 squares
+Description: Flames descend on the target, dealing radiant damage. Target can make a Dexterity saving throw for half damage.
+
+Name: Sword Burst
+Damage: 1d6 force
+Range: Self (1 square radius)
+Description: Creates a burst of spectral swords around you, damaging all creatures within 1 square.
+
+Name: Green-Flame Blade
+Damage: 1d8 + secondary fire damage
+Range: Melee weapon attack (1 square)
+Description: You make a melee attack; on hit, a secondary creature takes fire damage.
+
+Name: Booming Blade
+Damage: 1d8 + secondary thunder damage
+Range: Melee weapon attack (1 square)
+Description: Melee attack; if the target moves, it takes thunder damage on its turn.

@@ -1,0 +1,151 @@
+############# Calculate the N factor for each monster in the room ##############
+use it to cause monsters to be seen by the user when entering a point or a room
+
+
+N can also be used for the Movement system for monsters. Each monster will have their own calculation of N factor which will determine whether they see the user or not.
+
+If they do see him, they might start to advance towards him if they are hostile, or maybe run away.
+
+#######################################################################################################################################
+
+
+
+############# Replace room id and point id with descriptive names ##############
+[Location: Emberlight Citadel | RoomIdx: 0  | PointIdx: 1  | Cords: [1,0]>
+
+instead of this, do something like this:
+ [Location: Emberlight Citadel | Citadel Open Market: 0  | Wesly's Armor Shop: 1  | Cords: [1,0]>
+[Location: Emberlight Citadel | The Spine Mountains: 0  | River: 1  | Cords: [100,0]>
+
+
+#######################################################################################################################################
+
+
+
+
+############# Proficient ############
+
+When creating a character, each class should have some set proficiencies. Plus, the player can choose proficiency in 2 skills.
+Each player has a proficiency bonus, if they doing any action that involves that proficiency, they will receive that bonus to the throws
+
+For example, 
+	- barbarian are proficient in Barbarian → simple weapons, martial weapons, light and medium armor, shields
+	- Than at creation, we can choose 2 from (Athletics, Perception, Survival, etc.)
+	- When leveling up a player can choose to be proficient in something, for example proficient in heavy armor
+
+Example:
+
+Example: Level 1 Barbarian
+
+Proficiencies:
+
+	Weapons: Simple + Martial
+
+	Armor: Light, Medium, Shields
+
+	Saves: STR, CON
+
+		Skills: choose 2
+
+	Background (Outlander):
+
+		Skills: Athletics, Survival
+
+	Race (Half-Orc):
+
+		Skill: Intimidation
+
+
+#######################################################################################################################################
+
+
+
+
+
+
+################## Manual Mode ###############
+
+Add a mode(this might even be the default one) where the system doesn't automatically roll dices for the player and adds all the modifiers, the player needs to do it.
+This will add some layer of immersion, where a player needs to actively do stuff, add rolls, remember what modifiers they have and what proficiencies
+
+
+Player can insert an Admin code to enable Auotmatic Mode where the system does all the for him
+
+
+#######################################################################################################################################
+
+
+################## Admin codes ###############
+
+In general add a system of Admin Codes. Something like if a player inserts a command in a certain format. Lets say [Sudo RaiseHealth100]
+Than this is considered admin code and the system will run a command to raise the player's health by 100, for example.
+
+[Sudo AutomaticMode] ---> Switches to system automatic roll calculation
+#######################################################################################################################################
+
+
+
+
+
+################## Make combat feel more realistic ###############
+
+Instead of printing things like: "Choose an action, bonus action, etc" make the combat more realistic by NOT mentioning DnD terms so bluntly.
+
+The background logic will still use action, bonus action and so on, but the player will be promped with things like:
+
+
+For example:
+
+"After the monster has dodged your attack, you spot a chance to act. What do you do?"
+
+---> Cast firebolt
+
+"You generate fire with your hands, accumulate it and send it toward the wolf"
+
+Wolf has been hit by 12 points of fire damage
+
+"While wolf is in pain, you have an opportunity for an addional action:
+
+---> Jump
+
+"You jump blah blah...."
+
+"The wolf has regained its balance and is readying its attack."
+
+
+---> Cast firebolt
+
+" You realize you dont have time to generate a firebolt, the wolf has closed the distance"
+
+---> End turn
+
+
+
+
+
+This is an example of how the player simply used an action(firebolt), bonus action(jump), then tried to do another action(firebolt), then ended their turn, However as we can see, this is much more dynamic and mimicks
+the fludidy of actual combat WHILE retaining the rules of DnD.
+
+In general, I need to remember that DnD's rules for combat are simply a way to organize the chaotic nature of battle, I need to use those rules, but also make them work in the background instead of being explicit(cuz that takes the immersion of battling)
+
+
+
+
+#######################################################################################################################################
+
+
+################## Write some logic to handle the situation where a monster and the player are in the same point ###############
+currently, the player and monster can both be on the same point. I should figure out how big do I want a point to be, and based on that figure out if its even physically possible for both
+the player and the monster to be on the same point.
+
+I should probably block this option
+
+
+
+
+
+
+
+
+
+

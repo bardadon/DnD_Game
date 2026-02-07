@@ -155,12 +155,129 @@ Class Class
 
 
 
+########### Combat
+
+
+during the game loop, lets say the player writes "attack wolf"
+
+- First we do the regular processing of commands, and eventually pass "attack wolf" to Attack()
+
+- From here on, we basically enter combat mode. System class will manage the combat until it finishes.
+
+- system will have some function that accepts a vector of all the monsters the player is fighting with
+
+- first everyone will roll an initiative, and I will reorder the vector to match that roll
+
+- iterate over vector:
+
+	- prompt some explanation of the current situation
+
+	if player
+		HandlePlayerTurn
+	else if mondster
+		HandleMonsterTurn
+	else
+		HandleCompanionTurn(in the future)
+
+HandlePlayerTurn:
+	- grab command from user(such as cast spell FireBolt, bash wolf1, kick wolf2, dash etc)
+	
+	- Process command:
+		- First we figure out if its a valid command
+		- than if its an action or a bonus action
+		
+		- Process command
+		- Roll an attack initiative to check whether the attack hit
+
+		- FireBolt(Monster* monster)
+
+	- Update the state of the player in terms of number of spell slots left, rituals, action, bonus action and so on
 
 
 
 
-######################### General Implementation Notes ###################################
-- Add a logging system
+HandleNpcTurn:
+	for now, every turn they simply attack
+	
+
+Idea:
+Every action and bonus action such as FireBolt, bash wolf1, kick wolf2, dash etc can be made an function. For example:
+
+FireBolt(Monster* monster, int FireBoltLvl)
+	- check the user intelligence modifier
+	- check the monster defence or something
+	- Roll attack damage
+	- Check firebolt lvl(the user can choose the cast it as lvl 1,2,3...
+	- Update monster hp accordingly
+	- Reduce a spell slot from the user
+	etc
+
+	Basically, after making the initial confirmation that the move the player made is valid, the FireBolt functor will handle everything.
+
+
+- The system can have a class called CombatManager which stores all these functions.
+
+
+############ Combat Map #############
+The combat will be placed across multiple Points. Until now I made it so that Points are relatively large areas and the entire combat was supposed to be in them. Now im changing that, each point will be a much smaller area.
+It will basically be the size of 1 grid tile. Meaning, if I have a dagger and its range is 1 tile, than I can attack monsters that are on my adjacent points.
+
+ Each point will have its own height, whether it has cover or not, visibility and so on.
+
+The player will walk around the room, and it can choose to attack a monster from several points away.
+
+Once that happen, we enter combat mode, and basically the entire world kind of stopps moving. We are to ignore everything else in the world until the battle is finihsed
+
+
+
+
+
+
+Also, I want another thread(or even process) to draw the grid, and the player/monsters in it at all times. The idea is that another window/terminal will show the 
+grid and not have it in the same terminal im using to send commands
+
+
+
+
+########## Distance related rules for combat ##########
+
+
+
+The number of squares a player can move is:
+	Movement = Speed / 5 (for grid squares)
+
+
+
+
+########## HandleMonsterTurn - logic for how a monster should act in combat ############
+
+I will create a general structure. Each monster will use their own versions/functions, but structure wont change, but each monster will handle things differently as needed.
+
+For example, the structure can be something like:
+
+- Choose an attack
+	- If the monster is close enough, use a short range attack
+	- if the monster doesn't have a long range attack and isn't close enough, go in a straight line to the player. Use dash when available
+	- if the monster have a long range attack, use it when its not close enough for short range attack
+
+- Roll a hit roll
+	- Grab the AC(Armor class) or whatever is needed to know if the attack will hit
+	- if the type of attack is str based, grab the AC
+	- if the type is a spell, maybe grab the intelligence??? - consult with the dnd rules on all of this
+
+- If miss - send a prompt and move to another turn
+
+- If hit, roll an attack damage roll
+	- Again, same logic, if the attack is str, grab the AC/Consitituion or whatever is used to reduce damage
+	- The total dmg is Dmg - PlayerArmorModifer
+
+
+
+
+
+
+
+
 
 
 

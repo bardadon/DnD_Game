@@ -1,0 +1,171 @@
+===========================
+MONSTER WEAPON ATTACKS + MOVEMENT
+===========================
+
+--------------------------------------------------
+MONSTER_TYPE_WOLF
+--------------------------------------------------
+Movement: 8 tiles (fast)
+Weapon: Bite
+Damage: 1d6 + STR (piercing)
+Range: 1 tile
+Notes: May apply "Knockdown" on hit.
+
+
+Stats:
+HP: 18
+Strength: 6
+Dexterity: 8
+Constitution: 5
+Intelligence: 2
+Wisdom: 6
+Perception: 8
+
+--------------------------------------------------
+MONSTER_TYPE_BEAR
+--------------------------------------------------
+Movement: 6 tiles
+Weapon: Claw
+Damage: 2d6 + STR (slashing)
+Range: 1 tile
+
+Weapon: Bite
+Damage: 1d8 + STR (piercing)
+Range: 1 tile
+
+Weapon: Maul Swipe (AoE)
+Damage: 1d6 + STR (slashing)
+Range: Adjacent 3 tiles (front arc)
+Notes: Sweeping attack hitting multiple targets.
+
+--------------------------------------------------
+MONSTER_TYPE_DEMON
+--------------------------------------------------
+Movement: 6 tiles
+Weapon: Hell Claw
+Damage: 2d8 + STR (slashing)
+Range: 1 tile
+
+Weapon: Fire Burst (ranged)
+Damage: 1d10 fire
+Range: 12 tiles
+
+Weapon: Infernal Lash
+Damage: 1d8 + STR (fire + slashing)
+Range: 2 tiles (reach)
+
+--------------------------------------------------
+MONSTER_TYPE_SPIDER
+--------------------------------------------------
+Movement: 8 tiles (very fast)
+Weapon: Bite
+Damage: 1d6 + DEX (piercing)
+Range: 1 tile
+
+Weapon: Venom Bite
+Damage: 1d6 + DEX + 1d6 poison
+Range: 1 tile
+Notes: Poison condition on failed save.
+
+Weapon: Web Shot (ranged)
+Damage: 0 (restrains target)
+Range: 6 tiles
+
+--------------------------------------------------
+MONSTER_TYPE_UNDEAD
+(Zombie / Skeleton simplified)
+--------------------------------------------------
+Movement (Skeleton): 6 tiles  
+Movement (Zombie): 4 tiles (slow shambling)
+
+Weapon: Slam (zombie)
+Damage: 1d6 + STR (bludgeoning)
+Range: 1 tile
+
+Weapon: Rusty Sword (skeleton)
+Damage: 1d8 + DEX (slashing)
+Range: 1 tile
+
+Weapon: Bone Throw (ranged)
+Damage: 1d4 + DEX (bludgeoning)
+Range: 4 tiles
+
+--------------------------------------------------
+MONSTER_TYPE_GOBLIN
+--------------------------------------------------
+Movement: 6 tiles
+Weapon: Dagger
+Damage: 1d4 + DEX (piercing)
+Range: 1 tile
+
+Weapon: Shortsword
+Damage: 1d6 + DEX (piercing)
+Range: 1 tile
+
+Weapon: Shortbow (ranged)
+Damage: 1d6 + DEX (piercing)
+Range: 12 tiles
+
+Weapon: Improvised Throw
+Damage: 1d4 (bludgeoning)
+Range: 4 tiles
+
+--------------------------------------------------
+MONSTER_TYPE_TROLL
+--------------------------------------------------
+Movement: 6 tiles (large stride)
+Weapon: Claw
+Damage: 2d6 + STR (slashing)
+Range: 1 tile
+
+Weapon: Bite
+Damage: 1d8 + STR (piercing)
+Range: 1 tile
+
+Weapon: Long Arm Swipe
+Damage: 1d6 + STR (slashing)
+Range: 2 tiles (reach)
+
+Weapon: Rock Throw (ranged)
+Damage: 2d8 + STR (bludgeoning)
+Range: 8 tiles
+
+--------------------------------------------------
+MONSTER_TYPE_DRAGON
+(Adult, simplified)
+--------------------------------------------------
+Movement (Ground): 8 tiles  
+Movement (Flight optional): 16 tiles
+
+Weapon: Bite
+Damage: 2d10 + STR (piercing)
+Range: 1 tile
+
+Weapon: Claw
+Damage: 2d6 + STR (slashing)
+Range: 1 tile
+
+Weapon: Tail Sweep
+Damage: 2d8 + STR (bludgeoning)
+Range: 2 tiles (rear arc)
+
+Weapon: Wing Buffet (AoE)
+Damage: 1d6 + STR
+Range: Adjacent 8 tiles (full ring)
+
+Weapon: Breath Weapon
+Damage: 6d6 elemental (fire/frost/acid/etc.)
+Range: 12 tiles (line or cone)
+Cooldown: 2–3 turns
+
+--------------------------------------------------
+MONSTER_TYPE_UNKNOWN
+--------------------------------------------------
+Movement: 6 tiles
+Weapon: Unstable Strike
+Damage: 1d8 force
+Range: 1 tile
+
+Weapon: Chaos Bolt (ranged)
+Damage: 1d6 random type
+Range: 10 tiles
